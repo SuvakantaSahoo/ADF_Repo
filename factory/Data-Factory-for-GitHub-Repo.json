@@ -1,0 +1,9 @@
+{
+	"name": "Data-Factory-for-GitHub-Repo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "64bd8c24-8108-40fe-b4a6-3cecbd4cb6cb",
+		"tenantId": "e4e34038-ea1f-4882-b6e8-ccd776459ca0"
+	}
+}
