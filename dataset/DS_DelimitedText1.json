@@ -1,0 +1,40 @@
+{
+	"name": "DS_DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "cars.csv",
+				"container": "container4"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Car",
+				"type": "String"
+			},
+			{
+				"name": "MPG",
+				"type": "String"
+			},
+			{
+				"name": "Cylinders",
+				"type": "String"
+			},
+			{
+				"name": "Displacement",
+				"type": "String"
+			}
+		]
+	}
+}
